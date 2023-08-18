@@ -16,6 +16,7 @@ var traverseDomAndCollectElements = function (matchFunc, startEl) {
 
 var selectorTypeMatcher = function (selector) {
   // tu código aquí
+  
 };
 
 // NOTA SOBRE LA FUNCIÓN MATCH
@@ -40,3 +41,7 @@ var $ = function (selector) {
   elements = traverseDomAndCollectElements(selectorMatchFunc);
   return elements;
 };
+
+$('.clasecualquiera')
+$('#idcualquiera')
+$('tagcualquiera')
